@@ -1,32 +1,30 @@
-
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>WikiLatic</title>
 
     <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/4.0/examples/sign-in/signin.css" rel="stylesheet">
+    <link href="signin.css" rel="stylesheet">
+    <script src="change-form.js"></script>>
 </head>
-
+s
 <body class="text-center">
-<h1>WikiLatic</h1>
-<form class="form-signin">
-    <h1>Sign in</h1>
-    <h1 class="h3 mb-3 font-weight-normal">Please sign in to use WikiLatic</h1>
+<form id = "sign-in-form" class="form-signin" style="display: block">
+    <h1>WikiLatic</h1>
+    <h3>Please sign in to use WikiLatic</h3>
     <label for="inputUsername" class="sr-only">Username</label>
-    <input type="text" id="inputUsername" class="form-control" placeholder="Username" required>
+    <input type="text" id="inputUsername" class="form-control" placeholder="Username">
     <label for="inputPassword" class="sr-only">Password</label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password">
 
     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <button id = "go-register" class="btn btn-lg btn-primary btn-block" >Register</button>
 </form>
 
-<form class="form-signin">
+<form id = "register-form" class="form-signup" style="display: none">
     <h1>Sign up</h1>
     <h1 class="h3 mb-3 font-weight-normal">Don't have an account? Sign up now!</h1>
     <label for="inputFirstName" class="sr-only">First Name</label>
