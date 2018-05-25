@@ -1,0 +1,22 @@
+doctype html
+
+html(lang="en")
+    head
+        title WikiLatic
+        link(rel = 'stylesheet' type='text/css' href='css/landingpage.css' media='screen')
+
+
+    body
+        h2 WikiLatic
+        form(action = 'login' method = 'POST')
+            fieldset
+                legend Log in Your Account
+                    h4 E-mail Address
+                        label
+                            input(type="email" name="useremail")
+                    h4 Password
+                        label
+                            input(type="password" name="pwd")
+                    input(type="submit" value="Log in Account")
+                    |
+                    input(type="")
