@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="806c2ba1-8198-40ee-8d6f-d31360956b3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/routes/registrationPage.routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/navbar.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/registrationPage.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/landingpage.pug" afterPath="$PROJECT_DIR$/views/layout.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
@@ -26,18 +22,18 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="350">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="325">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,18 +42,18 @@
       <file leaf-file-name="layout.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="400">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registrationPage.routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="registrationPage.routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes/registrationPage.routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/views/registrationPage.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+              <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -89,7 +85,106 @@
             <state relative-caret-position="375">
               <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
-                <marker date="1527237188264" expanded="true" signature="106595:106603" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="90870:90878" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="90898:92287" ph="{&quot;version&quot;: &quot;0.8.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="91144:91444" ph="{&quot;base&quot;: &quot;0.11.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="91468:92281" ph="{...}" />
+                <marker date="1527249980188" expanded="true" signature="91497:91767" ph="{&quot;version&quot;: &quot;0.2.5&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="91707:91757" ph="{&quot;is-descriptor&quot;: &quot;0.1.6&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="91795:92063" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="92003:92053" ph="{&quot;is-extendable&quot;: &quot;0.1.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="92087:92273" ph="{&quot;version&quot;: &quot;0.5.7&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="92312:94456" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="92568:92677" ph="{&quot;define-property&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="92701:94450" ph="{...}" />
+                <marker date="1527249980188" expanded="true" signature="92730:93000" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="92940:92990" ph="{&quot;is-descriptor&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="93036:93376" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="93322:93366" ph="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="93408:93740" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="93686:93730" ph="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="93767:94179" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="94035:94169" ph="{&quot;is-accessor-descriptor&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="94200:94442" ph="{&quot;version&quot;: &quot;6.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="94481:94828" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="94737:94822" ph="{&quot;kind-of&quot;: &quot;https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="94848:95099" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="95005:95093" ph="{&quot;amdefine&quot;: &quot;https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="95127:95561" ph="{&quot;version&quot;: &quot;0.5.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="95389:95555" ph="{&quot;atob&quot;: &quot;2.1.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="95585:95763" ph="{&quot;version&quot;: &quot;0.4.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="95778:95994" ph="{&quot;version&quot;: &quot;0.3.3&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="95952:95988" ph="{&quot;through&quot;: &quot;2.3.8&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="96016:96315" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="96266:96309" ph="{&quot;extend-shallow&quot;: &quot;3.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="96338:96941" ph="{&quot;version&quot;: &quot;0.1.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="96528:96604" ph="{&quot;define-property&quot;: &quot;0.2.5&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="96628:96935" ph="{...}" />
+                <marker date="1527249980188" expanded="true" signature="96657:96927" ph="{&quot;version&quot;: &quot;0.2.5&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="96867:96917" ph="{&quot;is-descriptor&quot;: &quot;0.1.6&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="96959:97098" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/statuses/-/statuses-1.4.0.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="97123:97360" ph="{&quot;version&quot;: &quot;0.0.4&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="97317:97354" ph="{&quot;duplexer&quot;: &quot;0.1.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="97384:97741" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="97638:97735" ph="{&quot;safe-buffer&quot;: &quot;https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="97763:98102" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="98013:98096" ph="{&quot;is-fullwidth-code-point&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="98122:98351" ph="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="98306:98345" ph="{&quot;ansi-regex&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="98370:98538" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="98567:98755" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="98779:99076" ph="{&quot;version&quot;: &quot;5.4.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="99033:99070" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="99095:99317" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="99277:99311" ph="{&quot;execa&quot;: &quot;0.7.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="99334:99498" ph="{&quot;version&quot;: &quot;2.3.8&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="99517:99685" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="99713:99872" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="99896:100179" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="100088:100173" ph="{&quot;kind-of&quot;: &quot;https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="100197:100585" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="100439:100579" ph="{&quot;define-property&quot;: &quot;2.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="100609:100940" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="100801:100934" ph="{&quot;is-number&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="100962:101109" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/token-stream/-/token-stream-0.0.1.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="101124:101400" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="101360:101394" ph="{&quot;nopt&quot;: &quot;1.0.10&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="101417:101759" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-is/-/type-is-1.6.16.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="101569:101753" ph="{&quot;media-typer&quot;: &quot;https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="101778:102433" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="101934:102216" ph="{&quot;source-map&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="102240:102427" ph="{...}" />
+                <marker date="1527249980188" expanded="true" signature="102264:102419" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="102463:102650" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="102668:102957" ph="{&quot;version&quot;: &quot;2.1.5&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="102910:102951" ph="{&quot;random-bytes&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="102976:103243" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="103158:103237" ph="{&quot;debug&quot;: &quot;https://registry.npmjs.org/debug/-/debug-2.6.9.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="103264:104315" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="103450:103582" ph="{&quot;arr-union&quot;: &quot;3.1.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="103606:104309" ph="{...}" />
+                <marker date="1527249980188" expanded="true" signature="103634:103902" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="103842:103892" ph="{&quot;is-extendable&quot;: &quot;0.1.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="103925:104301" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="104123:104291" ph="{&quot;extend-shallow&quot;: &quot;2.0.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="104338:104583" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="104528:104577" ph="{&quot;crypto-random-string&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="104599:104734" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="104755:105945" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="104941:105008" ph="{&quot;has-value&quot;: &quot;0.3.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="105032:105939" ph="{...}" />
+                <marker date="1527249980188" expanded="true" signature="105055:105721" ph="{&quot;version&quot;: &quot;0.3.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="105253:105367" ph="{&quot;get-value&quot;: &quot;2.0.6&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="105395:105711" ph="{...}" />
+                <marker date="1527249980188" expanded="true" signature="105421:105699" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="105633:105685" ph="{&quot;isarray&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="105745:105931" ph="{&quot;version&quot;: &quot;0.1.4&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="105969:106147" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="106162:106384" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="106409:106989" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="106665:106983" ph="{&quot;boxen&quot;: &quot;1.3.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="107003:107161" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+                <marker date="1527249980188" expanded="true" signature="111126:111134" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -117,14 +212,14 @@
         <option value="$PROJECT_DIR$/change-form.js" />
         <option value="$PROJECT_DIR$/signin.css" />
         <option value="$PROJECT_DIR$/LandingPage.html" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/views/landingpage.pug" />
         <option value="$PROJECT_DIR$/app/routes/registrationPage.route.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/navbar.pug" />
         <option value="$PROJECT_DIR$/views/layout.pug" />
         <option value="$PROJECT_DIR$/views/registrationPage.pug" />
         <option value="$PROJECT_DIR$/app/routes/registrationPage.routes.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -166,7 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +294,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,22 +353,23 @@
       <workItem from="1527228135211" duration="188000" />
       <workItem from="1527229307173" duration="1491000" />
       <workItem from="1527231134659" duration="7255000" />
+      <workItem from="1527249786483" duration="858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14090000" />
+    <option name="totallyTimeSpent" value="14948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.49142858" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.48810437" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.50857145" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.5118956" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -298,6 +394,163 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/navbar.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/registrationPage.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <marker date="1527249980188" expanded="true" signature="90870:90878" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="90898:92287" ph="{&quot;version&quot;: &quot;0.8.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91144:91444" ph="{&quot;base&quot;: &quot;0.11.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91468:92281" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="91497:91767" ph="{&quot;version&quot;: &quot;0.2.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91707:91757" ph="{&quot;is-descriptor&quot;: &quot;0.1.6&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91795:92063" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92003:92053" ph="{&quot;is-extendable&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92087:92273" ph="{&quot;version&quot;: &quot;0.5.7&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92312:94456" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92568:92677" ph="{&quot;define-property&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92701:94450" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="92730:93000" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92940:92990" ph="{&quot;is-descriptor&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93036:93376" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93322:93366" ph="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93408:93740" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93686:93730" ph="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93767:94179" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94035:94169" ph="{&quot;is-accessor-descriptor&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94200:94442" ph="{&quot;version&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94481:94828" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94737:94822" ph="{&quot;kind-of&quot;: &quot;https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94848:95099" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95005:95093" ph="{&quot;amdefine&quot;: &quot;https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95127:95561" ph="{&quot;version&quot;: &quot;0.5.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95389:95555" ph="{&quot;atob&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95585:95763" ph="{&quot;version&quot;: &quot;0.4.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95778:95994" ph="{&quot;version&quot;: &quot;0.3.3&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95952:95988" ph="{&quot;through&quot;: &quot;2.3.8&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96016:96315" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96266:96309" ph="{&quot;extend-shallow&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96338:96941" ph="{&quot;version&quot;: &quot;0.1.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96528:96604" ph="{&quot;define-property&quot;: &quot;0.2.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96628:96935" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="96657:96927" ph="{&quot;version&quot;: &quot;0.2.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96867:96917" ph="{&quot;is-descriptor&quot;: &quot;0.1.6&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96959:97098" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/statuses/-/statuses-1.4.0.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97123:97360" ph="{&quot;version&quot;: &quot;0.0.4&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97317:97354" ph="{&quot;duplexer&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97384:97741" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97638:97735" ph="{&quot;safe-buffer&quot;: &quot;https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97763:98102" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98013:98096" ph="{&quot;is-fullwidth-code-point&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98122:98351" ph="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98306:98345" ph="{&quot;ansi-regex&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98370:98538" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98567:98755" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98779:99076" ph="{&quot;version&quot;: &quot;5.4.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99033:99070" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99095:99317" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99277:99311" ph="{&quot;execa&quot;: &quot;0.7.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99334:99498" ph="{&quot;version&quot;: &quot;2.3.8&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99517:99685" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99713:99872" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99896:100179" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100088:100173" ph="{&quot;kind-of&quot;: &quot;https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100197:100585" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100439:100579" ph="{&quot;define-property&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100609:100940" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100801:100934" ph="{&quot;is-number&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100962:101109" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/token-stream/-/token-stream-0.0.1.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101124:101400" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101360:101394" ph="{&quot;nopt&quot;: &quot;1.0.10&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101417:101759" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-is/-/type-is-1.6.16.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101569:101753" ph="{&quot;media-typer&quot;: &quot;https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101778:102433" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101934:102216" ph="{&quot;source-map&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102240:102427" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="102264:102419" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102463:102650" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102668:102957" ph="{&quot;version&quot;: &quot;2.1.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102910:102951" ph="{&quot;random-bytes&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102976:103243" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103158:103237" ph="{&quot;debug&quot;: &quot;https://registry.npmjs.org/debug/-/debug-2.6.9.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103264:104315" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103450:103582" ph="{&quot;arr-union&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103606:104309" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="103634:103902" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103842:103892" ph="{&quot;is-extendable&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103925:104301" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104123:104291" ph="{&quot;extend-shallow&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104338:104583" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104528:104577" ph="{&quot;crypto-random-string&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104599:104734" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104755:105945" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104941:105008" ph="{&quot;has-value&quot;: &quot;0.3.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105032:105939" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="105055:105721" ph="{&quot;version&quot;: &quot;0.3.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105253:105367" ph="{&quot;get-value&quot;: &quot;2.0.6&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105395:105711" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="105421:105699" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105633:105685" ph="{&quot;isarray&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105745:105931" ph="{&quot;version&quot;: &quot;0.1.4&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105969:106147" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="106162:106384" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="106409:106989" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="106665:106983" ph="{&quot;boxen&quot;: &quot;1.3.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="107003:107161" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="111126:111134" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/registrationPage.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -327,7 +580,106 @@
         <state relative-caret-position="375">
           <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
-            <marker date="1527237188264" expanded="true" signature="106595:106603" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="90870:90878" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="90898:92287" ph="{&quot;version&quot;: &quot;0.8.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91144:91444" ph="{&quot;base&quot;: &quot;0.11.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91468:92281" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="91497:91767" ph="{&quot;version&quot;: &quot;0.2.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91707:91757" ph="{&quot;is-descriptor&quot;: &quot;0.1.6&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91795:92063" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92003:92053" ph="{&quot;is-extendable&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92087:92273" ph="{&quot;version&quot;: &quot;0.5.7&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92312:94456" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92568:92677" ph="{&quot;define-property&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92701:94450" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="92730:93000" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92940:92990" ph="{&quot;is-descriptor&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93036:93376" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93322:93366" ph="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93408:93740" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93686:93730" ph="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93767:94179" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94035:94169" ph="{&quot;is-accessor-descriptor&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94200:94442" ph="{&quot;version&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94481:94828" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94737:94822" ph="{&quot;kind-of&quot;: &quot;https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94848:95099" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95005:95093" ph="{&quot;amdefine&quot;: &quot;https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95127:95561" ph="{&quot;version&quot;: &quot;0.5.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95389:95555" ph="{&quot;atob&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95585:95763" ph="{&quot;version&quot;: &quot;0.4.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95778:95994" ph="{&quot;version&quot;: &quot;0.3.3&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95952:95988" ph="{&quot;through&quot;: &quot;2.3.8&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96016:96315" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96266:96309" ph="{&quot;extend-shallow&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96338:96941" ph="{&quot;version&quot;: &quot;0.1.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96528:96604" ph="{&quot;define-property&quot;: &quot;0.2.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96628:96935" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="96657:96927" ph="{&quot;version&quot;: &quot;0.2.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96867:96917" ph="{&quot;is-descriptor&quot;: &quot;0.1.6&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96959:97098" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/statuses/-/statuses-1.4.0.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97123:97360" ph="{&quot;version&quot;: &quot;0.0.4&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97317:97354" ph="{&quot;duplexer&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97384:97741" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97638:97735" ph="{&quot;safe-buffer&quot;: &quot;https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97763:98102" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98013:98096" ph="{&quot;is-fullwidth-code-point&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98122:98351" ph="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98306:98345" ph="{&quot;ansi-regex&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98370:98538" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98567:98755" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98779:99076" ph="{&quot;version&quot;: &quot;5.4.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99033:99070" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99095:99317" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99277:99311" ph="{&quot;execa&quot;: &quot;0.7.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99334:99498" ph="{&quot;version&quot;: &quot;2.3.8&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99517:99685" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99713:99872" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99896:100179" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100088:100173" ph="{&quot;kind-of&quot;: &quot;https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100197:100585" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100439:100579" ph="{&quot;define-property&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100609:100940" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100801:100934" ph="{&quot;is-number&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100962:101109" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/token-stream/-/token-stream-0.0.1.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101124:101400" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101360:101394" ph="{&quot;nopt&quot;: &quot;1.0.10&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101417:101759" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-is/-/type-is-1.6.16.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101569:101753" ph="{&quot;media-typer&quot;: &quot;https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101778:102433" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101934:102216" ph="{&quot;source-map&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102240:102427" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="102264:102419" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102463:102650" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102668:102957" ph="{&quot;version&quot;: &quot;2.1.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102910:102951" ph="{&quot;random-bytes&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102976:103243" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103158:103237" ph="{&quot;debug&quot;: &quot;https://registry.npmjs.org/debug/-/debug-2.6.9.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103264:104315" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103450:103582" ph="{&quot;arr-union&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103606:104309" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="103634:103902" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103842:103892" ph="{&quot;is-extendable&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103925:104301" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104123:104291" ph="{&quot;extend-shallow&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104338:104583" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104528:104577" ph="{&quot;crypto-random-string&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104599:104734" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104755:105945" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104941:105008" ph="{&quot;has-value&quot;: &quot;0.3.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105032:105939" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="105055:105721" ph="{&quot;version&quot;: &quot;0.3.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105253:105367" ph="{&quot;get-value&quot;: &quot;2.0.6&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105395:105711" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="105421:105699" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105633:105685" ph="{&quot;isarray&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105745:105931" ph="{&quot;version&quot;: &quot;0.1.4&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105969:106147" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="106162:106384" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="106409:106989" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="106665:106983" ph="{&quot;boxen&quot;: &quot;1.3.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="107003:107161" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="111126:111134" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -356,32 +708,107 @@
         <state relative-caret-position="375">
           <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
-            <marker date="1527237188264" expanded="true" signature="106595:106603" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="90870:90878" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="90898:92287" ph="{&quot;version&quot;: &quot;0.8.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91144:91444" ph="{&quot;base&quot;: &quot;0.11.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91468:92281" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="91497:91767" ph="{&quot;version&quot;: &quot;0.2.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91707:91757" ph="{&quot;is-descriptor&quot;: &quot;0.1.6&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="91795:92063" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92003:92053" ph="{&quot;is-extendable&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92087:92273" ph="{&quot;version&quot;: &quot;0.5.7&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92312:94456" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92568:92677" ph="{&quot;define-property&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92701:94450" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="92730:93000" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="92940:92990" ph="{&quot;is-descriptor&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93036:93376" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93322:93366" ph="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93408:93740" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93686:93730" ph="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="93767:94179" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94035:94169" ph="{&quot;is-accessor-descriptor&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94200:94442" ph="{&quot;version&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94481:94828" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94737:94822" ph="{&quot;kind-of&quot;: &quot;https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="94848:95099" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95005:95093" ph="{&quot;amdefine&quot;: &quot;https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95127:95561" ph="{&quot;version&quot;: &quot;0.5.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95389:95555" ph="{&quot;atob&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95585:95763" ph="{&quot;version&quot;: &quot;0.4.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95778:95994" ph="{&quot;version&quot;: &quot;0.3.3&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="95952:95988" ph="{&quot;through&quot;: &quot;2.3.8&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96016:96315" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96266:96309" ph="{&quot;extend-shallow&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96338:96941" ph="{&quot;version&quot;: &quot;0.1.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96528:96604" ph="{&quot;define-property&quot;: &quot;0.2.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96628:96935" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="96657:96927" ph="{&quot;version&quot;: &quot;0.2.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96867:96917" ph="{&quot;is-descriptor&quot;: &quot;0.1.6&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="96959:97098" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/statuses/-/statuses-1.4.0.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97123:97360" ph="{&quot;version&quot;: &quot;0.0.4&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97317:97354" ph="{&quot;duplexer&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97384:97741" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97638:97735" ph="{&quot;safe-buffer&quot;: &quot;https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="97763:98102" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98013:98096" ph="{&quot;is-fullwidth-code-point&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98122:98351" ph="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98306:98345" ph="{&quot;ansi-regex&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98370:98538" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98567:98755" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="98779:99076" ph="{&quot;version&quot;: &quot;5.4.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99033:99070" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99095:99317" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99277:99311" ph="{&quot;execa&quot;: &quot;0.7.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99334:99498" ph="{&quot;version&quot;: &quot;2.3.8&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99517:99685" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99713:99872" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="99896:100179" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100088:100173" ph="{&quot;kind-of&quot;: &quot;https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100197:100585" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100439:100579" ph="{&quot;define-property&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100609:100940" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100801:100934" ph="{&quot;is-number&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="100962:101109" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/token-stream/-/token-stream-0.0.1.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101124:101400" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101360:101394" ph="{&quot;nopt&quot;: &quot;1.0.10&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101417:101759" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-is/-/type-is-1.6.16.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101569:101753" ph="{&quot;media-typer&quot;: &quot;https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101778:102433" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="101934:102216" ph="{&quot;source-map&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102240:102427" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="102264:102419" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102463:102650" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102668:102957" ph="{&quot;version&quot;: &quot;2.1.5&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102910:102951" ph="{&quot;random-bytes&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="102976:103243" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103158:103237" ph="{&quot;debug&quot;: &quot;https://registry.npmjs.org/debug/-/debug-2.6.9.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103264:104315" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103450:103582" ph="{&quot;arr-union&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103606:104309" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="103634:103902" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103842:103892" ph="{&quot;is-extendable&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="103925:104301" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104123:104291" ph="{&quot;extend-shallow&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104338:104583" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104528:104577" ph="{&quot;crypto-random-string&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104599:104734" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104755:105945" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="104941:105008" ph="{&quot;has-value&quot;: &quot;0.3.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105032:105939" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="105055:105721" ph="{&quot;version&quot;: &quot;0.3.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105253:105367" ph="{&quot;get-value&quot;: &quot;2.0.6&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105395:105711" ph="{...}" />
+            <marker date="1527249980188" expanded="true" signature="105421:105699" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105633:105685" ph="{&quot;isarray&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105745:105931" ph="{&quot;version&quot;: &quot;0.1.4&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="105969:106147" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="106162:106384" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="106409:106989" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="106665:106983" ph="{&quot;boxen&quot;: &quot;1.3.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="107003:107161" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+            <marker date="1527249980188" expanded="true" signature="111126:111134" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz&quot;...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/registrationPage.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -393,18 +820,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/registrationPage.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/registrationPage.routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
