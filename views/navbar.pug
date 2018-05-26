@@ -1,8 +1,14 @@
 nav.navbar.navbar-fixed-top.navbar-dark.bg-inverse
-    button.navbar-toggler.hidden-md-up.pull-xs-right(type='button', data-toggle='collapse')
+    button.navbar-toggler.hidden-md-up.pull-xs-right(type='button', data-toggle='collapse', data-target='#navbar') &#x2630;
     #navbar.navbar-nav.collapse.navbar-toggleable-sm
         .container
-            a.navbar-brand(='/')
+            a.navbar-brand(href='/')
                 | WikiLatic
             .nav-items.clearfix
-                a.nav-item.navlink(href='registrationPage') Sign Up
+                if !currentUser
+                    a.nav-item.nav-link(href='registrationPage') Sign Up
+             if currentUser
+                 div
+                     a.btn.btn-light.pull-md-right(href='/logout') Log Out
+             else
+                 a.btn.btn-info.pull-md-right(href='/login') Login in
