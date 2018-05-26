@@ -3,12 +3,15 @@ nav.navbar.navbar-fixed-top.navbar-dark.bg-inverse
     #navbar.navbar-nav.collapse.navbar-toggleable-sm
         .container
             a.navbar-brand(href='/')
+                i.icn-logo.material-icons bookmark_border
                 | WikiLatic
             .nav-items.clearfix
                 if !currentUser
-                    a.nav-item.nav-link(href='registrationPage') Sign Up
-             if currentUser
-                 div
-                     a.btn.btn-light.pull-md-right(href='/logout') Log Out
-             else
-                 a.btn.btn-info.pull-md-right(href='/login') Login in
+                    a.nav-item.nav-link(href='register') Sign Up
+                a.nav-item.nav-link(href='main') Main Menu
+
+            if currentUser
+                div
+                    a.btn.btn-light.pull-md-right(href='/logout') Log out
+            else
+                a.btn.btn-info.pull-md-right(href='login') Login

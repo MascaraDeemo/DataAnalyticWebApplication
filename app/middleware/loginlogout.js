@@ -15,4 +15,4 @@ function requireLogin(req, res, next) {
 
 }
 module.exports.loggedOut= loggedOut;
-module.exports.requireLogin - requireLogin;
+module.exports.requireLogin = requireLogin;

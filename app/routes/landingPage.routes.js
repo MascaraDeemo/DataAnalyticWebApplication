@@ -91,12 +91,4 @@ router.get('/', function (req, res, next) {
     return res.render('login', {title: 'Login'});
 });
 
-
-module.exports = router;
-
-
-
-
-
-
 module.exports = router;
