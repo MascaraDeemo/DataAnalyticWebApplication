@@ -7,9 +7,13 @@ var MongoStore = require('connect-mongo')(session);
 var app = express();
 
 // mongodb connection
-mongoose.connect("mongodb: localhost:27017/WikiLatic");
+// connect/create users database
+mongoose.connect("mongodb://localhost:27017/users");
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
+db.once('open', function () {
+    console.log('connection successful, now go do your shit');
+});
 
 app.use(session({
     secret: 'WikiLatic',
@@ -27,7 +31,7 @@ app.use(function (req, res, next) {
 
 //parse incoming requests
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extend: false}));
+app.use(bodyParser.urlencoded({extended: true}));
 
 //static files from public
 app.use(express.static(__dirname + '/public'));
