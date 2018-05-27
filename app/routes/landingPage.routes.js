@@ -42,7 +42,7 @@ router.post('/login', function (req, res, next) {
                 err.status = 401;
                 return next(err);
             } else {
-                req.session.userId = uesr._id;
+                req.session.userId = user._id;
                 return res.redirect('/');
             }
         });

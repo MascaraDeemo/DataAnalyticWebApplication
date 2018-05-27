@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="806c2ba1-8198-40ee-8d6f-d31360956b3d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/views/home.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/landingPage.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/landingPage.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/navbar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/navbar.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/registrationPage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/registrationPage.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,26 +19,26 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
+            <state relative-caret-position="-337">
               <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landingPage.routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="landingPage.routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes/landingPage.routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="170">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/login.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+            <state relative-caret-position="135">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -51,8 +46,8 @@
       <file leaf-file-name="registrationPage.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/registrationPage.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="75" lean-forward="true" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+            <state relative-caret-position="240">
+              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -60,8 +55,8 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="170">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -69,8 +64,8 @@
       <file leaf-file-name="layout.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="90">
+              <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -78,8 +73,8 @@
       <file leaf-file-name="navbar.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/navbar.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -96,7 +91,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1882">
+            <state relative-caret-position="60">
               <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
@@ -113,6 +108,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>username</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,11 +134,11 @@
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/views/home.pug" />
-        <option value="$PROJECT_DIR$/views/registrationPage.pug" />
         <option value="$PROJECT_DIR$/app/models/user.js" />
-        <option value="$PROJECT_DIR$/views/navbar.pug" />
         <option value="$PROJECT_DIR$/views/login.pug" />
         <option value="$PROJECT_DIR$/app/routes/landingPage.routes.js" />
+        <option value="$PROJECT_DIR$/views/navbar.pug" />
+        <option value="$PROJECT_DIR$/views/registrationPage.pug" />
       </list>
     </option>
   </component>
@@ -287,12 +287,12 @@
       <workItem from="1527250840117" duration="424000" />
       <workItem from="1527251497626" duration="10769000" />
       <workItem from="1527393049131" duration="489000" />
-      <workItem from="1527394261643" duration="15447000" />
+      <workItem from="1527394261643" duration="16034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42077000" />
+    <option name="totallyTimeSpent" value="42664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -494,17 +494,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1882">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="765">
+          <caret line="439" selection-start-line="439" selection-end-line="439" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
+        <state relative-caret-position="-337">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/navbar.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -515,52 +536,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.pug">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="439" selection-start-line="439" selection-end-line="439" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/navbar.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/registrationPage.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="75" lean-forward="true" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/landingPage.routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="170">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/registrationPage.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
