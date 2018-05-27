@@ -43,7 +43,7 @@ router.post('/login', function (req, res, next) {
                 return next(err);
             } else {
                 req.session.userId = uesr._id;
-                return res.redirect('/main');
+                return res.redirect('/');
             }
         });
     }else {
@@ -75,7 +75,7 @@ router.post('/register', function(req, res, next){
             if(error){
                 return next(error);
             }else{
-                return res.redirect('/main')
+                return res.redirect('/')
             }
         })
 
@@ -88,7 +88,7 @@ router.post('/register', function(req, res, next){
 });
 
 router.get('/', function (req, res, next) {
-    return res.render('login', {title: 'Login'});
+    return res.render('home', {title: 'Home'});
 });
 
 module.exports = router;
