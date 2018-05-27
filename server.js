@@ -7,7 +7,7 @@ var MongoStore = require('connect-mongo')(session);
 var app = express();
 
 // mongodb connection
-mongoose.connect("mongodb:localhost:27017/WikiLatic");
+mongoose.connect("mongodb: localhost:27017/WikiLatic");
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
 
