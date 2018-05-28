@@ -59,7 +59,7 @@ router.get('/register', function(req,res, next){
 });
 
 router.post('/register', function(req, res, next){
-    if (req.body.email && req.body.name && req.body.password && req.body.rePassword){
+    if (req.body.email && req.body.name && req.body.password && req.body.rePassword && req.body.username){
         if(req.body.password !== req.body.rePassword){
             var err = new Error('Password need to be match.')
             err.status = 400;
@@ -67,6 +67,7 @@ router.post('/register', function(req, res, next){
         }
         var userData ={
             email: req.body.email,
+            username: req.body.username,
             name: req.body.name,
             password: req.body.password
         };
