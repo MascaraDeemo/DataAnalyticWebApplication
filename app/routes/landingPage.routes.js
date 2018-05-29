@@ -1,12 +1,14 @@
 var express = require('express');
 var router = express.Router();
 var User  = require('../models/user');
-var mid = require('../middleware/loginlogout');
+var loginlogout = require('../controllers/loginlogout');
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/WikiLatic";
 
 
 
 
-router.get('/main', mid.requireLogin, function (req,res, next) {
+router.get('/main', loginlogout.requireLogin, function (req,res, next) {
     User.findByid(req.session.userId)
         .exec(function (error, user) {
             if(error){
@@ -30,7 +32,7 @@ router.get('/logout', function(req, res, next){
     }
 });
 
-router.get('/login', mid.loggedOut, function (req, res, next) {
+router.get('/login', loginlogout.loggedOut, function (req, res, next) {
     return res.render('login', {title: 'Log In'})
 });
 
@@ -92,6 +94,15 @@ router.post('/register', function(req, res, next){
 
 router.get('/', function (req, res, next) {
     return res.render('home', {title: 'Home'});
+});
+
+router.get('/author', function (req, res, next) {
+    return res.render('author', {title: 'Author Analytics'});
+});
+
+router.post('/searchAuthor', function (req, res, next) {
+    
+
 });
 
 module.exports = router;

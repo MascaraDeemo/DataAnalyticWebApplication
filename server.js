@@ -8,11 +8,11 @@ var app = express();
 
 // mongodb connection
 // connect/create users database
-mongoose.connect("mongodb://localhost:27017/users");
+mongoose.connect("mongodb://localhost:27017/WikiLatic");
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
 db.once('open', function () {
-    console.log('connection successful, now go do your shit');
+    console.log('connection successful, now go do your stuff');
 });
 
 app.use(session({
