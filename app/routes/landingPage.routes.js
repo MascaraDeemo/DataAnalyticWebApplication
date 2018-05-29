@@ -2,7 +2,8 @@ var express = require('express');
 var router = express.Router();
 var User  = require('../models/user');
 var mid = require('../middleware/loginlogout');
-var mongoose = require('mongoose');
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/WikiLatic";
 
 
 
@@ -98,16 +99,18 @@ router.get('/author', function (req, res, next) {
 });
 
 router.get('/searchAuthor', function (req, res, next) {
-    console.log("up to here");
-    mongoose.connect("mongodb://localhost:27017/users");
-    console.log("up to here22");
-    var authors = db.collection('users');
-    console.log('here');
-    var result = authors.find(
-        { user: "LKR23"},
-        { "title": 1, _id: 0}
-        );
-    console.log(result);
+
+    //right now it just search username "narakhuon" and display result in console
+    MongoClient.connect(url, function(err, db) {
+        if (err) throw err;
+        var dbo = db.db("WikiLatic");
+        var query = { username: "narakhuon"};
+        dbo.collection("users").find(query).toArray(function(err, result) {
+            if (err) throw err;
+            console.log(result);
+            db.close();
+        });
+    });
 });
 
 module.exports = router;
