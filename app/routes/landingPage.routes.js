@@ -58,6 +58,8 @@ router.get('/register', function(req,res, next){
     return res.render('registrationPage', {title: 'Sign up'})
 });
 
+
+// use register user form
 router.post('/register', function(req, res, next){
     if (req.body.email && req.body.name && req.body.password && req.body.rePassword && req.body.username){
         if(req.body.password !== req.body.rePassword){
