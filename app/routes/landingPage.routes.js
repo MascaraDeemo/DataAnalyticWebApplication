@@ -4,6 +4,7 @@ var User  = require('../models/user');
 var loginlogout = require('../controllers/loginlogout');
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/WikiLatic";
+var Authors = require('../controllers/authors.controller');
 
 
 
@@ -92,17 +93,9 @@ router.post('/register', function(req, res, next){
     }
 });
 
-router.get('/', function (req, res, next) {
-    return res.render('home', {title: 'Home'});
-});
+router.get('/searchByAuthor', Authors.searchByAuthor);
 
-router.get('/author', function (req, res, next) {
-    return res.render('author', {title: 'Author Analytics'});
-});
 
-router.post('/searchAuthor', function (req, res, next) {
-    
 
-});
 
 module.exports = router;

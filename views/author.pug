@@ -5,11 +5,11 @@ block content
         .row
             .col-md-6.col-md-offset-3
                 h1.display-4.m-b-2 Author Analytics
-                form(method='GET' action='/searchAuthor')
+                form(method='GET' action='/searchByAuthor')
                     div.form-group
                         label(for='authorName') Author Name:
-                        input#authorName.form-control(type='text' placeholder='Author Name' name='authorName')
+                        input#authorName(type='text' placeholder='Author Name' name='authorName')
                     button.btn.btn-primary(type='submit') Search
 
                 // this is div with ID "authorRevisions" to display the results here.
-                #authorRevisions
+                div#authorRevisions
