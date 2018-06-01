@@ -108,8 +108,12 @@ router.get('/overall', function (req, res, next) {
     return res.render('overall', {title: 'Overall Analytics'});
 });
 
-router.get('/MostEdit', Overall.MostEdit);
-router.get('/MinEdit', Overall.MinEdit);
+router.get('/overallRevisionsMost', Overall.MostEdit);
+router.get('/overallRevisionsMin', Overall.MinEdit);
+router.get('/mostDistinct', Overall.MostDistinct);
+router.get('/leastDistinct', Overall.leastDistinct);
+router.get('/longestArticle', Overall.longestArticle);
+router.get('/shortestArticle', Overall.shortestArticle);
 
 
 
