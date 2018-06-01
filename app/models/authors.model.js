@@ -22,9 +22,11 @@ module.exports.searchByAuthor = function(req, res){
     ]
     authorModel.aggregate(query, function (err, result) {
         if (err){
-            res.append('authorRevisions', "error when searching author");
+            res('authorRevisions', "error when searching author");
         }
-        res.append('authorRevisions',result);
+        console.log("resultsssss is ");
+        console.log(result);
+        res('authorRevisions',result);
     })
 };
 
