@@ -8,7 +8,8 @@ module.exports.searchByAuthor = function (req, res){
             if (result == "No author found") {
                 res.render('author', { authorReview: "No author found"});
             } else {
-                res.render('author', { authorReview: result});
+                //var parse = JSON.parse(result);
+                res.render('author', { authorReview: JSON.stringify(result)});
             }
         }
         else{

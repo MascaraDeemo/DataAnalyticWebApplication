@@ -14,10 +14,10 @@ var authorSchema = new mongoose.Schema(
 
 var authorModel = mongoose.model('authorModel',authorSchema, 'revisions');
 
-
 module.exports.searchByAuthor = function(req, res){
     var query = [
         {'$match':{user:req}},
+        {'$group':{_id:{user:'$user',title:'$title',timestamp:'$timestamp'}}},
         {'$sort':{_id:1}}
     ]
     authorModel.aggregate(query, function (err, result) {
