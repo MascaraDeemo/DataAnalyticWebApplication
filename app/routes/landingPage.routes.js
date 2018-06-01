@@ -5,6 +5,7 @@ var loginlogout = require('../controllers/loginlogout');
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/WikiLatic";
 var Authors = require('../controllers/authors.controller');
+var Overall = require('../controllers/overall.controller');
 
 
 
@@ -102,6 +103,10 @@ router.get('/', function (req, res, next) {
 router.get('/author', function (req, res, next) {
     return res.render('author', {title: 'Author Analytics'});
 });
+
+router.get('/MostEdit', Overall.MostEdit);
+router.get('/MinEdit', Overall.MinEdit);
+
 
 
 module.exports = router;
