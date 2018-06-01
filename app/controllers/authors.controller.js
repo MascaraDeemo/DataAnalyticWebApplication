@@ -2,15 +2,15 @@ var authors = require("../models/authors.model");
 
 module.exports.searchByAuthor = function (req, res){
     var author = req.query.authorName;
-    authors.searchByAuthor(author, function(err, result){
-        if(err){
-            console.log("Controller Error");
-            //res("No author found");
+    authors.searchByAuthor(author, function(result){
+        if(result){
+            if (result == "No author found") {
+                res.append('authorRevisions', "No author found");
+            }
+            res.append('authorRevisions', result);
         }
         else{
-            console.log("result is");
-            console.log(result);
-            res.json(result);
+            console.log("controller err");
         }
     })
 };
