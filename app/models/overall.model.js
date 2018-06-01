@@ -7,7 +7,8 @@ var overallSchema  = new mongoose.Schema(
         user: String,
         title: String,
         timestamp: String,
-        anon:String
+        anon:String,
+        type:String
     }
 );
 
@@ -113,4 +114,78 @@ module.exports.shortestArticle = function (req, res) {
 };
 
 
+module.exports.addFlied = function(users, type, next){
+    overallSchema.update(
+        {user:{"$in":[users]}},
+        {$set:{"type":type}},
+        function (err) {
+            if (err) throw console.log('add flied failed');
+            next();
+
+})
+};
+
+
+module.exports.countAnonDistribution = function(req, res){
+    var anonNum = [
+        {$match:{anon:""}},
+        {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
+        {$sort:{_id:1}}
+    ]
+    overallSchema.aggregate(anonNum, function (err, results) {
+        if(err){
+            res.append('charts', "error when counting anon users")
+        }
+        else{
+            res(results);
+        }
+    })
+};
+module.exports.countbotDistribution = function(req, res){
+    var botNum = [
+        {$match:{type:'bot'}},
+        {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
+        {$sort:{_id:1}}
+    ]
+    overallSchema.aggregate(botNum, function (err, results) {
+        if(err){
+            res.append('charts', "error when counting bot users")
+        }
+        else{
+            res(results);
+        }
+    })
+};
+
+module.exports.countAdminDistribution = function(req, res){
+    var adminNum = [
+        {$match:{type:'admin'}},
+        {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
+        {$sort:{_id:1}}
+    ]
+    overallSchema.aggregate(adminNum, function (err, results) {
+        if(err){
+            res.append('charts', "error when counting admin users")
+        }
+        else{
+            res(results);
+        }
+    })
+};
+
+module.exports.countUserDistribution = function(req, res){
+    var userNum = [
+        {'type':{$exists:false}},
+        {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
+        {$sort:{_id:1}}
+    ]
+    overallSchema.aggregate(userNum, function (err, results) {
+        if(err){
+            res.append('charts', "error when counting user users")
+        }
+        else{
+            res(results);
+        }
+    })
+};
 

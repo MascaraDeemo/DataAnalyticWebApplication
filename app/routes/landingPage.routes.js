@@ -6,6 +6,7 @@ var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/WikiLatic";
 var Authors = require('../controllers/authors.controller');
 var Overall = require('../controllers/overall.controller');
+import {GoogleCharts} from 'google-charts';
 
 
 
@@ -114,6 +115,10 @@ router.get('/mostDistinct', Overall.MostDistinct);
 router.get('/leastDistinct', Overall.leastDistinct);
 router.get('/longestArticle', Overall.longestArticle);
 router.get('/shortestArticle', Overall.shortestArticle);
+GoogleCharts.load(drawChart);
+
+router.get('/', Overall.setBotFlied);
+router.get('/', Overall.setAdminFlied);
 
 
 
