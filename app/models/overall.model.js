@@ -13,7 +13,6 @@ module.exports.MostEdit = function (req, res) {
     var mostEdit = [
         {$group:{_id:"$user", numOfEdits:{$sum:1}}},
         {$sort:{numOfEdits:-1}},
-        {$limit:3}
     ]
     overallSchema.aggregate(mostEdit, function(err, results){
         if (err){
@@ -30,7 +29,6 @@ module.exports.MinEdit = function (req, res){
     var minEdit = [
         {$group:{_id:"$user", numOfEdits:{$sum:1}}},
         {$sort:{numOfEdits:1}},
-        {$limit:3}
     ]
     overallSchema.aggregate(minEdit, function(err, results){
         if (err){
