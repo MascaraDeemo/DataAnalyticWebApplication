@@ -126,7 +126,7 @@ module.exports.addFlied = function(users, type, next){
 };
 
 
-module.exports.countAnonDistribution = function(req, res){
+module.exports.countAnonDistribution = function(res){
     var anonNum = [
         {$match:{anon:""}},
         {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
@@ -141,7 +141,7 @@ module.exports.countAnonDistribution = function(req, res){
         }
     })
 };
-module.exports.countbotDistribution = function(req, res){
+module.exports.countBotDistribution = function(res){
     var botNum = [
         {$match:{type:'bot'}},
         {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
@@ -157,7 +157,7 @@ module.exports.countbotDistribution = function(req, res){
     })
 };
 
-module.exports.countAdminDistribution = function(req, res){
+module.exports.countAdminDistribution = function(res){
     var adminNum = [
         {$match:{type:'admin'}},
         {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
@@ -173,7 +173,7 @@ module.exports.countAdminDistribution = function(req, res){
     })
 };
 
-module.exports.countUserDistribution = function(req, res){
+module.exports.countUserDistribution = function(res){
     var userNum = [
         {'type':{$exists:false}},
         {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},

@@ -121,5 +121,12 @@ router.get('/', Overall.setBotFlied);
 router.get('/', Overall.setAdminFlied);
 
 
+router.get('/Charts', Overall.countAnon);
+router.get('/Charts', Overall.countBot);
+router.get('/Charts', Overall.countAdmin);
+router.get('/Charts', Overall.countUser);
+
+
+
 
 module.exports = router;

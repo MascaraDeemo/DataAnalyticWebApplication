@@ -96,6 +96,67 @@ fs.readFile('admin.txt', function(err, data) {
 module.exports.setAdminFlied = function(req, res, next){
     overall.addFlied(admin,'admin',next);
 };
-
-module.exports
-
+var anonEditByYears = [];
+module.exports.countAnon = function(req, res, next){
+    overall.countAnonDistribution(function (err, result) {
+        if(err){
+            res.append('chart',"counting Anon error");
+        }
+        else{
+                for(var i=2001;i<2018;i++){
+                    anonEditByYears.push({_id:i.toString(),EditingTime:0})
+                }
+                next()
+        }
+    })
+};
+var botEditByYears = [];
+module.exports.countBot = function(req, res, next){
+    overall.countBotDistribution(function (err, result) {
+        if(err){
+            res.append('chart',"counting bot error");
+        }
+        else{
+            var botEditByYears = [];
+            for(var i=2001;i<2018;i++){
+                botEditByYears.push({_id:i.toString(),EditingTime:0})
+            }
+            next()
+        }
+    })
+};
+var adminEditByYears = [];
+module.exports.countAdmin = function(req, res, next){
+    overall.countAdminDistribution(function (err, result) {
+        if(err){
+            res.append('chart',"counting Admin error");
+        }
+        else{
+            var adminEditByYears = [];
+            for(var i=2001;i<2018;i++){
+                adminEditByYears.push({_id:i.toString(),EditingTime:0})
+            }
+            next()
+        }
+    })
+};
+var userEditByYears = [];
+module.exports.countUser = function(req, res, next){
+    overall.countUserDistribution(function (err, result) {
+        if(err){
+            res.append('chart',"counting User error");
+        }
+        else{
+            var userEditByYears = [];
+            for(i=2001;i<2018;i++){
+                userEditByYears.push({_id:i.toString(),EditingTime:0})
+            }
+            next()
+            var chart = [];
+            for(var y = 2001; y<2018;y++){
+                chart.push({Year:y.toString(),Anon:anonEditByYears[_id][EditingTime],Bot:botEditByYears[_id][EditingTime],Admin:adminEditByYears[_id][EditingTime],User:userEditByYears[_id][EditingTime]})
+            }
+            res.json(chart);
+        }
+    })
+};
