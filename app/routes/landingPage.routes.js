@@ -104,6 +104,10 @@ router.get('/author', function (req, res, next) {
     return res.render('author', {title: 'Author Analytics'});
 });
 
+router.get('/overall', function (req, res, next) {
+    return res.render('overall', {title: 'Overall Analytics'});
+});
+
 router.get('/MostEdit', Overall.MostEdit);
 router.get('/MinEdit', Overall.MinEdit);
 
