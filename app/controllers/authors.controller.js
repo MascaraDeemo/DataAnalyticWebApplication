@@ -8,6 +8,8 @@ module.exports.searchByAuthor = function (req, res){
             res.error("No author found");
         }
         else{
+            console.log("result is");
+            console.log(result);
             res.json(result);
         }
     })

@@ -95,7 +95,13 @@ router.post('/register', function(req, res, next){
 
 router.get('/searchByAuthor', Authors.searchByAuthor);
 
+router.get('/', function (req, res, next) {
+    return res.render('home', {title: 'Home'});
+});
 
+router.get('/author', function (req, res, next) {
+    return res.render('author', {title: 'Author Analytics'});
+});
 
 
 module.exports = router;

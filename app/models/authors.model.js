@@ -15,15 +15,14 @@ var authorSchema = new mongoose.Schema(
 var authorModel = mongoose.model('authorModel',authorSchema, 'revisions');
 
 
-
 module.exports.searchByAuthor = function(req, res){
-    var result = [
+    var query = [
         {'$match':{user:req}},
         {'$sort':{_id:1}}
     ]
-    revision.aggregate(result, function (err, result) {
+    authorModel.aggregate(query, function (err, result) {
         if (err){
-            res.append('authorRivisions', "error when searching author");
+            res.append('authorRevisions', "error when searching author");
         }
         res.append('authorRevisions',result);
     })
