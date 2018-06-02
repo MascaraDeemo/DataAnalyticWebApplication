@@ -20,3 +20,21 @@ module.exports.TotalRevisionNum = function (title, res) {
         }
     })
 };
+
+module.exports.topFiveUser = function (title, res) {
+    var topFive = [
+        {'$match':{$and:[{title:title},{'usertype':{$exists:false}}]}},
+        {$group:{_id:"$user",numOfEdits:{$sum:1}}},
+        {$sort:{numOfEdits:-1}},
+        {$limit:5}]
+    individualSchema.aggregate(topFive, function (err, result) {
+        if(err){
+            console.log("error aggregate top 5 users")
+        }
+        else{
+            res(result);
+        }
+    })
+};
+
+
