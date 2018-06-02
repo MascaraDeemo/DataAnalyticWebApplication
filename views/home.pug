@@ -3,16 +3,15 @@ extends layout
 block content
     .main.container
         .row
-            h3 WikiLatic is a Wikipedia data analytic web application. Available functionalities include:
-                span
-                    img(src="images/dog.jpg" alt="dog")
-                    h4 Overall analytics
-                    h6 Display results as text for queries about the whole Wikipedia dataset
-                span
-                    img(src="images/dog.jpg" alt="dog")
-                    h4 Individual article analytics
-                    h6 Display results about an article
-                span
-                    img(src="images/dog.jpg" alt="dog")
-                    h4 Author analytics
-                    h6 Display all articles that are changed by a specific author
+            h3 WikiLatic is a small Wikipedia data analytic web application. Dataset is queried using Wikipedia API. Functionalities include overall analytics, individual article analytics, and author analytics.
+
+            div(class='row')
+                div(class='column')
+                    img(class='sampleimg' src="images/2.png" alt="dog")
+                    h6 Sample chart showing overall analytics
+                div(class='column')
+                    img(class='sampleimg' src="images/1.png" alt="dog")
+                    h6 Sample chart showing distribution by user types
+                div(class='column')
+                    img(class='sampleimg' src="images/3.png" alt="dog")
+                    h6 Sample chart showing a certain user's distribution

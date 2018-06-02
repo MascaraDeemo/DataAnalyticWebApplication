@@ -10,6 +10,28 @@ a:hover {
 
 /* Component Styles */
 
+input {
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sampleimg {
+    width: 100%;
+    height:350px;
+}
+
 .navbar {
     padding: 1rem 0;
     background: rgba(0,0,0, .25);
