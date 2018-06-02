@@ -81,17 +81,17 @@ module.exports.shortestArticle = function (req, res) {
     })
 };
 
-fs.readFile('bot.txt', function(err, data) {
+fs.readFile('./public/Bot.txt', function(err, data) {
     if(err) throw err;
-    globals.bot = data.toString().split("\n");
+    bot = data.toString().split("\n");
 });
 
 module.exports.setBotFlied = function(req, res, next){
     overall.addFlied(bot,'bot',next);
 };
-fs.readFile('admin.txt', function(err, data) {
+fs.readFile('./public/Admin.txt', function(err, data) {
     if(err) throw err;
-    globals.admin = data.toString().split("\n");
+    admin = data.toString().split("\n");
 });
 module.exports.setAdminFlied = function(req, res, next){
     overall.addFlied(admin,'admin',next);

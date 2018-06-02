@@ -33,7 +33,7 @@ function drawBar(){
     graphData.addColumn('number','Admin');
     graphData.addColumn('number', 'Users');
     $.each(data, function(index, val) {
-        graphData.addRow([val[]]);
+        graphData.addRow([val['Year'], val['anon'],val['bot'], val['admin'], val['user']]);
     })
     var chart = new google.visualization.PieChart($("#myChart")[0]);
     chart.draw(graphData, optionsBar);
@@ -56,4 +56,22 @@ $(document).ready(function() {
         drawBar()
     })
 
+});
+
+
+$(document).ready(function(){
+    var articleTitles = new Array();
+    $.getJSON('/MostEdit',function(result) {
+        var titles = result;
+        for(var i=0;i<titles.length;i++){
+            var autocomplete = document.createElement('option');
+            autocomplete.innerHTML = titles[i]['_id'];
+            autocomplete.value = i;
+            $('#articles').append(autocomplete);
+            articleTitles.push(titles[i]['_id']);
+        }
+    }
+    $("#ArticleTitle").autocomplete({
+        source: articleTitles
+    });
 });

@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    .main.container
+        .row
+            .col-md-6.col-md-offset-3
+             div#articlesAuto
+                 select#articles
+                    option(value=-1) Articles
+                label(for='ArticleTitle') Title
+                input#ArticleTitle(type='text' placeholder='Enter articles you want to search')
+                button#titleBtn.btn.btn-info Select
+            div#articleInfo
