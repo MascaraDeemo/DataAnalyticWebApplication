@@ -24,4 +24,4 @@ module.exports.TopFiveUser = function (req, res, next) {
                 res.append('top5user', result);
             }
         })
-}
+};

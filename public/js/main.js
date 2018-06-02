@@ -70,7 +70,7 @@ $(document).ready(function(){
             $('#articles').append(autocomplete);
             articleTitles.push(titles[i]['_id']);
         }
-    }
+    });
     $("#ArticleTitle").autocomplete({
         source: articleTitles
     });
