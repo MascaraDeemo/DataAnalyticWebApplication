@@ -12,7 +12,7 @@ mongoose.connect("mongodb://localhost:27017/WikiLatic");
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
 db.once('open', function () {
-    console.log('connection successful, now go do your stuff');
+    console.log('Mongodb connected successfully');
 });
 
 app.use(session({

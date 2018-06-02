@@ -2,18 +2,17 @@ nav.navbar.navbar-fixed-top.navbar-dark.bg-inverse
     button.navbar-toggler.hidden-md-up.pull-xs-right(type='button', data-toggle='collapse', data-target='#navbar') &#x2630;
     #navbar.navbar-nav.collapse.navbar-toggleable-sm
         .container
-            a.navbar-brand(href='/')
+            a.navbar-brand(href='/home')
                 i.icn-logo.material-icons bookmark_border
                 | WikiLatic
             .nav-items.clearfix
 
             // navbar with links to use the functionality only appear when user logged in
-            // button changed to log out instead of login / sign up
             if currentUser
                 div
                     a.btn.btn-light.pull-md-right(href='/logout') Log out
                     a.nav-item.nav-link(href='/overall') Overall Analytics
-                    a.nav-item.nav-link(href='/') Individual Analytics
+                    a.nav-item.nav-link(href='/individual') Individual Analytics
                     a.nav-item.nav-link(href='/author') Author Analytics
             else
                 a.btn.btn-info.pull-md-right(href='login') Login / Sign Up

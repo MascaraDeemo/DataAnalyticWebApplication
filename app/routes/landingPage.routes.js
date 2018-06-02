@@ -96,8 +96,12 @@ router.post('/register', function(req, res, next){
 
 router.get('/searchByAuthor', Authors.searchByAuthor);
 
-router.get('/', function (req, res, next) {
+router.get('/home', function (req, res, next) {
     return res.render('home', {title: 'Home'});
+});
+
+router.get('/individual', function (req, res, next) {
+    return res.render('individual', {title: 'Individual Analytics'});
 });
 
 router.get('/author', function (req, res, next) {
