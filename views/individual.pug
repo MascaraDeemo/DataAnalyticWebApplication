@@ -5,12 +5,15 @@ block content
         .row
             .col-md-6.col-md-offset-3
              div#articlesAuto
+                 h6 Select article title
                  select#articles
                     option(value=-1) Articles
-                label(for='ArticleTitle') Title
-                input#ArticleTitle(type='text' placeholder='Enter articles you want to search')
-                button#titleBtn.btn.btn-info Select
-            div#articleInfo
+                 br
+                 label(for='ArticleTitle') Or search here:
+                 input#ArticleTitle(type='text' placeholder='Enter articles you want to search')
+                 button#titleBtn.btn.btn-info Search
+
+             div#articleInfo
                 table
                     tr
                         td Title:

@@ -14,6 +14,10 @@ input {
     color: black;
 }
 
+select {
+    color: black;
+}
+
 td{
     border: 1px solid black;
     padding: 1em;
