@@ -4,20 +4,37 @@ block content
     .main.container
         .row
             .col-md-6.col-md-offset-3
-                form(method='GET' action='/overallRevisionsMost' id = 'most' name = 'most')
-                    div.form-group
-                        label(for='numOfRevision') Revision Number:
-                        input#numOfRevision(type='number' min='1' max='100' value='3')
-                    button.btn.btn-primary(type='submit') Submit
                 h1.display-4.m-b-2 Overall Analytics
 
-                div#overallRevisionsMost this is author revisions
-                div#overallRevisionsMin
-                div#mostDistinct
-                div#leastDistinct
-                div#longestArticle
-                div#shortestArticle
-                a(href='/pieChart' id='pie') Pie Chart
+                form(method='GET' action='/overallRevisionsMost' id = 'most' name = 'most')
+                    div.form-group
+                        label(for='numOfRevision') Number of articles with highest and lowest revisions to display:
+                        input#numOfRevision(type='number' min='1' max='100' value='3')
+                    button.btn.btn-primary(type='submit') Submit
+
                 br
-                a(href='/barChart' id='bar') Bar Charts
+
+                table
+                    tr
+                        td Articles with the most revisions:
+                        td#overallRevisionsMost
+                    tr
+                        td Articles with the least revisions:
+                        td#overallRevisionsMin
+                    tr
+                        td Articles edited by largest groups of registered users:
+                        td#mostDistinct
+                    tr
+                        td Articles edited by smallest groups of registered users:
+                        td#leastDistinct
+                    tr
+                        td Top 3 articles with the longest history:
+                        td#longestArticle
+                    tr
+                        td Article with the shortest history:
+                        td#shortestArticle
+
+                a(class="chart" href='/pieChart' id='pie') Pie Chart
+                br
+                a(class="chart" href='/barChart' id='bar') Bar Charts
                 div#Chart
