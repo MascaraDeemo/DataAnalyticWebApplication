@@ -8,7 +8,7 @@ module.exports.searchByAuthor = function (req, res){
             if (result == "No author found") {
                 res.render('author', { authorReview: "No author found"});
             } else {
-                res.json(result);
+                res.render('author', { authorList: JSON.stringify(result)});
             }
         }
         else{

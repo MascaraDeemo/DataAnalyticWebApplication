@@ -5,11 +5,9 @@ var fs = require('fs');
 module.exports.MostEdit = function (req, res){
     var mostEdit = new Array();
     var numOfresult = req.query.numOfRevision;
-    overall.MostEdit(function(err, result){
-        if(err){
-            res.append('overallRevisionsMost', "Error when finding most edited");
-        }
-        else{
+    overall.MostEdit(function(result){
+        if (result) {
+            console.log("result overall in controller is " + result);
             for(i=0;i<numOfresult;i++){
                 mostEdit.push(result[i]);
             }
@@ -22,7 +20,7 @@ module.exports.MostEdit = function (req, res){
 module.exports.MinEdit = function (req, res){
     var minEdit = new Array();
     var numOfresult = req.query.numOfRevision;
-    overall.MinEdit(function (err, result) {
+    overall.MinEdit(function (result, err) {
         if(err){
             res.append('overallRevisionsMin', "Error when finding least edited");
         }
@@ -30,13 +28,13 @@ module.exports.MinEdit = function (req, res){
             for(i=0;i<numOfresult;i++){
                 minEdit.push(result[i]);
             }
-            res.append('overallRevisionsMost', minEdit);
+            res.append('overallRevisionsMin', minEdit);
         }
     })
 };
 
 module.exports.MostDistinct = function (req, res) {
-    overall.mostDistinct(function (err, result) {
+    overall.mostDistinct(function (result, err) {
         if(err){
             res.append('mostDistinct', "Error when finding title with largest distinct user group");
         }
@@ -47,7 +45,7 @@ module.exports.MostDistinct = function (req, res) {
 };
 
 module.exports.leastDistinct = function (req, res) {
-    overall.leastDistinct(function (err, result) {
+    overall.leastDistinct(function (result, err) {
         if(err){
             res.append('leastDistinct', "Error when finding title with least distinct user group");
         }
@@ -58,7 +56,7 @@ module.exports.leastDistinct = function (req, res) {
 };
 
 module.exports.longestArticle = function (req, res) {
-    overall.longestArticle(function (err, result) {
+    overall.longestArticle(function (result, err) {
         if(err){
             res.append('longestArticle', "Error when finding longest history article");
         }
@@ -71,7 +69,7 @@ module.exports.longestArticle = function (req, res) {
 
 
 module.exports.shortestArticle = function (req, res) {
-    overall.shortestArticle(function (err, result) {
+    overall.shortestArticle(function (result, err) {
         if(err){
             res.append('shortestArticle', "Error when finding shortest history article");
         }
@@ -98,7 +96,7 @@ module.exports.setAdminFlied = function(req, res, next){
 };
 var anonEditByYears = [];
 module.exports.countAnon = function(req, res, next){
-    overall.countAnonDistribution(function (err, result) {
+    overall.countAnonDistribution(function (result, err) {
         if(err){
             res.append('chart',"counting Anon error");
         }
@@ -112,7 +110,7 @@ module.exports.countAnon = function(req, res, next){
 };
 var botEditByYears = [];
 module.exports.countBot = function(req, res, next){
-    overall.countBotDistribution(function (err, result) {
+    overall.countBotDistribution(function (result, err) {
         if(err){
             res.append('chart',"counting bot error");
         }
@@ -127,7 +125,7 @@ module.exports.countBot = function(req, res, next){
 };
 var adminEditByYears = [];
 module.exports.countAdmin = function(req, res, next){
-    overall.countAdminDistribution(function (err, result) {
+    overall.countAdminDistribution(function (result, err) {
         if(err){
             res.append('chart',"counting Admin error");
         }
@@ -142,7 +140,7 @@ module.exports.countAdmin = function(req, res, next){
 };
 var userEditByYears = [];
 module.exports.countUser = function(req, res, next){
-    overall.countUserDistribution(function (err, result) {
+    overall.countUserDistribution(function (result, err) {
         if(err){
             res.append('chart',"counting User error");
         }

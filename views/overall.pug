@@ -18,27 +18,33 @@ block content
                     tr
                         td Articles with the most revisions:
                         td
-                            ul#overallRevisionsMost
+                            ul
+                                li=overallRevisionsMost
                     tr
                         td Articles with the least revisions:
                         td
-                            ul#overallRevisionsMin
+                            ul
+                                li=overallRevisionsMin
                     tr
                         td Articles edited by largest groups of registered users:
                         td
-                            ul#mostDistinct
+                            ul
+                                li=mostDistinct
                     tr
                         td Articles edited by smallest groups of registered users:
                         td
-                            ul#leastDistinct
+                            ul
+                                li=leastDistinct
                     tr
                         td Top 3 articles with the longest history:
                         td
-                            ul#longestArticle
+                            ul
+                                li=longestArticle
                     tr
                         td Article with the shortest history:
                         td
-                            ul#shortestArticle
+                            ul
+                                li=shortestArticle
 
                 a(class="chart" href='/pieChart' id='pie') Pie Chart
                 br

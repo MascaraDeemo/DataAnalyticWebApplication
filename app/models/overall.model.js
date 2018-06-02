@@ -12,16 +12,19 @@ var overallSchema  = new mongoose.Schema(
     }
 );
 
+var overallModel = mongoose.model('overallModel',overallSchema, 'revisions');
+
 module.exports.MostEdit = function (req, res, next) {
     var mostEdit = [
         {$group:{_id:"$user", numOfEdits:{$sum:1}}},
         {$sort:{numOfEdits:-1}},
     ]
-    overallSchema.aggregate(mostEdit, function(err, results){
+    overallModel.aggregate(mostEdit, function(err, results){
         if (err){
             res.append('overallRevisionsMost', "error when aggregate most edited revisions");
         }
         else{
+            console.log("result overall in model is " + results)
             res(results);
             next();
         }
@@ -34,7 +37,7 @@ module.exports.MinEdit = function (req, res, next){
         {$group:{_id:"$user", numOfEdits:{$sum:1}}},
         {$sort:{numOfEdits:1}},
     ]
-    overallSchema.aggregate(minEdit, function(err, results){
+    overallModel.aggregate(minEdit, function(err, results){
         if (err){
             res.append('overallRevisionsMin', "error when aggregate least edited revisions");
         }
@@ -53,7 +56,7 @@ module.exports.mostDistinct = function(req, res){
         {$sort:{uniqueUsersCount:-1}},
         {$limit:1}
     ]
-    overallSchema.aggregate(mostDistinct, function (err, results) {
+    overallModel.aggregate(mostDistinct, function (err, results) {
         if(err){
             res.append('mostDistinct', "error when aggregate most distinct article")
         }
@@ -71,7 +74,7 @@ module.exports.leastDistinct = function(req, res){
         {$sort:{uniqueUsersCount:1}},
         {$limit:1}
     ]
-    overallSchema.aggregate(leastDistinct, function (err, results) {
+    overallModel.aggregate(leastDistinct, function (err, results) {
         if(err){
             res.append('leastDistinct', "error when aggregate least distinct article")
         }
@@ -87,7 +90,7 @@ module.exports.longestArticle = function (req, res) {
         {$sort:{timestamp:1}},
         {$limit:3}
     ]
-    overallSchema.aggregate(longestArticle, function(err,results){
+    overallModel.aggregate(longestArticle, function(err,results){
         if(err){
             res.append('longestArticle', "error when aggregate longest history article")
         }
@@ -103,7 +106,7 @@ module.exports.shortestArticle = function (req, res) {
         {$sort:{timestamp:1}},
         {$limit:3}
     ]
-    overallSchema.aggregate(shortestArticle, function(err,results){
+    overallModel.aggregate(shortestArticle, function(err,results){
         if(err){
             res.append('shortestArticle', "error when aggregate shortest history article")
         }
@@ -115,7 +118,7 @@ module.exports.shortestArticle = function (req, res) {
 
 
 module.exports.addFlied = function(users, type, next){
-    overallSchema.update(
+    overallModel.update(
         {user:{"$in":[users]}},
         {$set:{"type":type}},
         function (err) {
@@ -132,7 +135,7 @@ module.exports.countAnonDistribution = function(res){
         {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
         {$sort:{_id:1}}
     ]
-    overallSchema.aggregate(anonNum, function (err, results) {
+    overallModel.aggregate(anonNum, function (err, results) {
         if(err){
             res.append('charts', "error when counting anon users")
         }
@@ -147,7 +150,7 @@ module.exports.countBotDistribution = function(res){
         {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
         {$sort:{_id:1}}
     ]
-    overallSchema.aggregate(botNum, function (err, results) {
+    overallModel.aggregate(botNum, function (err, results) {
         if(err){
             res.append('charts', "error when counting bot users")
         }
@@ -163,7 +166,7 @@ module.exports.countAdminDistribution = function(res){
         {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
         {$sort:{_id:1}}
     ]
-    overallSchema.aggregate(adminNum, function (err, results) {
+    overallModel.aggregate(adminNum, function (err, results) {
         if(err){
             res.append('charts', "error when counting admin users")
         }
@@ -179,7 +182,7 @@ module.exports.countUserDistribution = function(res){
         {$group:{'_id':{"$substr":["timestamp", 0.4]},'EditingTime':{sum:1}}},
         {$sort:{_id:1}}
     ]
-    overallSchema.aggregate(userNum, function (err, results) {
+    overallModel.aggregate(userNum, function (err, results) {
         if(err){
             res.append('charts', "error when counting user users")
         }

@@ -9,9 +9,11 @@ var individualSchema = new mongoose.Schema(
     }
 );
 
+var individualModel = mongoose.model('individualModel',individualSchema, 'revisions');
+
 
 module.exports.TotalRevisionNum = function (title, res) {
-    individualSchema.find({'title': title}).count().exec(function(err, results){
+    individualModel.find({'title': title}).count().exec(function(err, results){
         if (err){
             console.log("Error when counting total revision number")
         }
@@ -27,7 +29,7 @@ module.exports.topFiveUser = function (title, res) {
         {$group:{_id:"$user",numOfEdits:{$sum:1}}},
         {$sort:{numOfEdits:-1}},
         {$limit:5}]
-    individualSchema.aggregate(topFive, function (err, result) {
+    individualModel.aggregate(topFive, function (err, result) {
         if(err){
             console.log("error aggregate top 5 users")
         }

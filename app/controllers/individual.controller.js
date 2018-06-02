@@ -2,7 +2,7 @@ var individual = require('../models/individual.model');
 
 module.exports.TotalRevisionNum = function (req, res, next) {
         title = req.query.ArticleTitle;
-    individual.TotalRevisionNum(function (err, result) {
+    individual.TotalRevisionNum(function (result, err) {
         if(err){
             res.append('totalRevisions',"error counting revision number")
         }
@@ -16,7 +16,7 @@ module.exports.TotalRevisionNum = function (req, res, next) {
 
 module.exports.TopFiveUser = function (req, res, next) {
         title = req.query.ArticleTitle;
-        individual.topFiveUser(function(err,result){
+        individual.topFiveUser(function(result, err){
             if(err){
                 res.append('top5user', "error when find top five user")
             }

@@ -56,22 +56,8 @@ $(document).ready(function() {
         drawBar()
     })
 
-});
-
-
-$(document).ready(function(){
-    var articleTitles = new Array();
-    $.getJSON('/MostEdit',function(result) {
-        var titles = result;
-        for(var i=0;i<titles.length;i++){
-            var autocomplete = document.createElement('option');
-            autocomplete.innerHTML = titles[i]['_id'];
-            autocomplete.value = i;
-            $('#articles').append(autocomplete);
-            articleTitles.push(titles[i]['_id']);
-        }
+    $("#authorBtn").click(function(){
+        console.log("button");
     });
-    $("#ArticleTitle").autocomplete({
-        source: articleTitles
-    });
+
 });
