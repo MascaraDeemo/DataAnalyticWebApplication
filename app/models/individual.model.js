@@ -15,9 +15,12 @@ var individualModel = mongoose.model('individualModel',individualSchema, 'revisi
 module.exports.TotalRevisionNum = function (title, res) {
     individualModel.find({'title': title}).count().exec(function(err, results){
         if (err){
-            console.log("Error when counting total revision number")
+            console.log("Error when counting total revision number");
         }
-        else{
+        else if (results == ""){
+            res("nothing");
+        }
+        else {
             res(results);
         }
     })

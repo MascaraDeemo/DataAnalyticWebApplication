@@ -9,18 +9,19 @@ block content
                  select#articles
                     option(value=-1) Articles
                  br
+             form(method="GET", action="/TotalRevisionNum")
                  label(for='ArticleTitle') Or search here:
-                 input#ArticleTitle(type='text' placeholder='Enter articles you want to search')
-                 button#titleBtn.btn.btn-info Search
+                 input#ArticleTitle(type='text' placeholder='Enter articles you want to search' name='ArticleTitle')
+                 button#titleBtn.btn.btn-info(type='Submit') Search
 
              div#articleInfo
                 table
                     tr
                         td Title:
-                        td#titleofArticle
+                        td=titleofArticle
                     tr
                         td Total number of revisions:
-                        td#totalREvisions
+                        td=totalREvisions
                     tr
                         td Top 5 users
-                        td#top5user
+                        td=top5user

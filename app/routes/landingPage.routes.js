@@ -4,6 +4,7 @@ var User  = require('../models/user');
 var loginlogout = require('../controllers/loginlogout');
 var Authors = require('../controllers/authors.controller');
 var Overall = require('../controllers/overall.controller');
+var Individual = require('../controllers/individual.controller');
 
 
 
@@ -107,16 +108,18 @@ router.get('/author', function (req, res, next) {
 });
 
 router.get('/overall', function (req, res, next) {
-    router.get('/overallRevisionsMost', Overall.MostEdit);
-    router.get('/overallRevisionsMin', Overall.MinEdit);
-    router.get('/mostDistinct', Overall.MostDistinct);
-    router.get('/leastDistinct', Overall.leastDistinct);
-    router.get('/longestArticle', Overall.longestArticle);
-    router.get('/shortestArticle', Overall.shortestArticle);
     return res.render('overall', {title: 'Overall Analytics'});
 });
 
+router.get('/overallRevisionsMost', Overall.MostEdit);
+router.get('/overallRevisionsMin', Overall.MinEdit);
+router.get('/mostDistinct', Overall.MostDistinct);
+router.get('/leastDistinct', Overall.leastDistinct);
+router.get('/longestArticle', Overall.longestArticle);
+router.get('/shortestArticle', Overall.shortestArticle);
 
+router.get('/TotalRevisionNum', Individual.TotalRevisionNum);
+router.get('/TotalRevisionNum', Individual.TopFiveUser);
 
 router.get('/', Overall.setBotFlied);
 router.get('/', Overall.setAdminFlied);

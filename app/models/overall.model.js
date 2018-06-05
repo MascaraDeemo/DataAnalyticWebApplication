@@ -14,19 +14,17 @@ var overallSchema  = new mongoose.Schema(
 
 var overallModel = mongoose.model('overallModel',overallSchema, 'revisions');
 
-module.exports.MostEdit = function (req, res, next) {
+module.exports.MostEdit = function (req, res) {
     var mostEdit = [
         {$group:{_id:"$user", numOfEdits:{$sum:1}}},
         {$sort:{numOfEdits:-1}},
     ]
     overallModel.aggregate(mostEdit, function(err, results){
         if (err){
-            res.append('overallRevisionsMost', "error when aggregate most edited revisions");
-        }
-        else{
-            console.log("result overall in model is " + results)
+            console.log("Error when getting result");
+        } else {
+            console.log("result overall in model is " + JSON.stringify(results));
             res(results);
-            next();
         }
     });
 };

@@ -7,11 +7,12 @@ module.exports.MostEdit = function (req, res){
     var numOfresult = req.query.numOfRevision;
     overall.MostEdit(function(result){
         if (result) {
-            console.log("result overall in controller is " + result);
+            console.log("result in controller is " + JSON.stringify(result))
             for(i=0;i<numOfresult;i++){
                 mostEdit.push(result[i]);
+                console.log("mostEdit is " + mostEdit);
             }
-            res.append('overallRevisionsMost', mostEdit);
+            res.render('overall', {overallRevisionsMost: mostEdit});
         }
     })
 };
