@@ -26,22 +26,21 @@ module.exports.MostEdit = function (req, res) {
             console.log("result overall in model is " + JSON.stringify(results));
             res(results);
         }
-    });
+    })
 };
 
 
-module.exports.MinEdit = function (req, res, next){
+module.exports.MinEdit = function (req, res){
     var minEdit = [
         {$group:{_id:"$user", numOfEdits:{$sum:1}}},
         {$sort:{numOfEdits:1}},
     ]
     overallModel.aggregate(minEdit, function(err, results){
         if (err){
-            res.append('overallRevisionsMin', "error when aggregate least edited revisions");
+            console.log("error when aggregate least edited revisions");
         }
         else{
             res(results);
-            next();
         }
     })
 };
@@ -56,7 +55,7 @@ module.exports.mostDistinct = function(req, res){
     ]
     overallModel.aggregate(mostDistinct, function (err, results) {
         if(err){
-            res.append('mostDistinct', "error when aggregate most distinct article")
+            console.log("error when aggregate most distinct article")
         }
         else {
             res(results);
@@ -74,7 +73,7 @@ module.exports.leastDistinct = function(req, res){
     ]
     overallModel.aggregate(leastDistinct, function (err, results) {
         if(err){
-            res.append('leastDistinct', "error when aggregate least distinct article")
+            console.log("error when aggregate least distinct article")
         }
         else {
             res(results);
@@ -90,7 +89,7 @@ module.exports.longestArticle = function (req, res) {
     ]
     overallModel.aggregate(longestArticle, function(err,results){
         if(err){
-            res.append('longestArticle', "error when aggregate longest history article")
+            console.log("error when aggregate longest history article")
         }
         else{
             res(results);
@@ -106,7 +105,7 @@ module.exports.shortestArticle = function (req, res) {
     ]
     overallModel.aggregate(shortestArticle, function(err,results){
         if(err){
-            res.append('shortestArticle', "error when aggregate shortest history article")
+            console.log("error when aggregate shortest history article")
         }
         else{
             res(results);
@@ -135,7 +134,7 @@ module.exports.countAnonDistribution = function(res){
     ]
     overallModel.aggregate(anonNum, function (err, results) {
         if(err){
-            res.append('charts', "error when counting anon users")
+            console.log("error when counting anon users")
         }
         else{
             res(results);
@@ -150,7 +149,7 @@ module.exports.countBotDistribution = function(res){
     ]
     overallModel.aggregate(botNum, function (err, results) {
         if(err){
-            res.append('charts', "error when counting bot users")
+            console.log("error when counting bot users")
         }
         else{
             res(results);
@@ -166,7 +165,7 @@ module.exports.countAdminDistribution = function(res){
     ]
     overallModel.aggregate(adminNum, function (err, results) {
         if(err){
-            res.append('charts', "error when counting admin users")
+            console.log("error when counting admin users")
         }
         else{
             res(results);
@@ -182,7 +181,7 @@ module.exports.countUserDistribution = function(res){
     ]
     overallModel.aggregate(userNum, function (err, results) {
         if(err){
-            res.append('charts', "error when counting user users")
+            console.log("error when counting user users")
         }
         else{
             res(results);

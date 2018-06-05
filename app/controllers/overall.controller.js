@@ -21,48 +21,36 @@ module.exports.MostEdit = function (req, res){
 module.exports.MinEdit = function (req, res){
     var minEdit = new Array();
     var numOfresult = req.query.numOfRevision;
-    overall.MinEdit(function (result, err) {
-        if(err){
-            res.append('overallRevisionsMin', "Error when finding least edited");
-        }
-        else{
+    overall.MinEdit(function (result) {
+        if(result){
             for(i=0;i<numOfresult;i++){
                 minEdit.push(result[i]);
             }
-            res.append('overallRevisionsMin', minEdit);
+            res.render('overall', {overallRevisionsMin: minEdit});
         }
     })
 };
 
 module.exports.MostDistinct = function (req, res) {
-    overall.mostDistinct(function (result, err) {
-        if(err){
-            res.append('mostDistinct', "Error when finding title with largest distinct user group");
-        }
-        else{
-            res.append('mostDistinct', result);
+    overall.mostDistinct(function (result) {
+        if(result){
+            res.render('overall', {mostDistinct: result});
         }
     })
 };
 
 module.exports.leastDistinct = function (req, res) {
-    overall.leastDistinct(function (result, err) {
-        if(err){
-            res.append('leastDistinct', "Error when finding title with least distinct user group");
-        }
-        else{
-            res.append('leastDistinct', result);
+    overall.leastDistinct(function (result) {
+        if(result){
+            res.render('overall', {leastDistinct: result});
         }
     })
 };
 
 module.exports.longestArticle = function (req, res) {
     overall.longestArticle(function (result, err) {
-        if(err){
-            res.append('longestArticle', "Error when finding longest history article");
-        }
-        else{
-            res.append('longestArticle', result);
+        if(result){
+            res.render('overall', {longestArticle: result});
         }
     })
 };
@@ -70,12 +58,9 @@ module.exports.longestArticle = function (req, res) {
 
 
 module.exports.shortestArticle = function (req, res) {
-    overall.shortestArticle(function (result, err) {
-        if(err){
-            res.append('shortestArticle', "Error when finding shortest history article");
-        }
-        else{
-            res.append('shortestArticle', result);
+    overall.shortestArticle(function (result) {
+        if(result){
+            res.render('overall', {shortestArticle: result});
         }
     })
 };
@@ -139,7 +124,7 @@ module.exports.countAdmin = function(req, res, next){
         }
     })
 };
-var userEditByYears = [];
+
 module.exports.countUser = function(req, res, next){
     overall.countUserDistribution(function (result, err) {
         if(err){

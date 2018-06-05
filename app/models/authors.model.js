@@ -27,10 +27,8 @@ module.exports.searchByAuthor = function(req, res){
         if (result == "") {
             res("No author found");
         } else {
-            console.log("result in model is " + result);
             res(result);
         }
-
     })
 };
 
