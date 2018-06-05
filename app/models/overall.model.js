@@ -37,9 +37,10 @@ module.exports.MinEdit = function (req, res){
     ]
     overallModel.aggregate(minEdit, function(err, results){
         if (err){
-            console.log("error when aggregate least edited revisions");
+            console.log( "error when aggregate least edited revisions");
         }
         else{
+            console.log("result overall in model is " + JSON.stringify(results));
             res(results);
         }
     })
@@ -58,6 +59,7 @@ module.exports.mostDistinct = function(req, res){
             console.log("error when aggregate most distinct article")
         }
         else {
+            console.log("result overall in model is " + JSON.stringify(results));
             res(results);
         }
     })
@@ -76,6 +78,7 @@ module.exports.leastDistinct = function(req, res){
             console.log("error when aggregate least distinct article")
         }
         else {
+            console.log("result overall in model is " + JSON.stringify(results));
             res(results);
         }
     })
@@ -108,6 +111,7 @@ module.exports.shortestArticle = function (req, res) {
             console.log("error when aggregate shortest history article")
         }
         else{
+            console.log("result overall in model is " + JSON.stringify(results));
             res(results);
         }
     })
@@ -137,6 +141,7 @@ module.exports.countAnonDistribution = function(res){
             console.log("error when counting anon users")
         }
         else{
+            console.log("result overall in model is " + JSON.stringify(results));
             res(results);
         }
     })
@@ -152,6 +157,7 @@ module.exports.countBotDistribution = function(res){
             console.log("error when counting bot users")
         }
         else{
+            console.log("result overall in model is " + JSON.stringify(results));
             res(results);
         }
     })
@@ -168,6 +174,7 @@ module.exports.countAdminDistribution = function(res){
             console.log("error when counting admin users")
         }
         else{
+            console.log("result overall in model is " + JSON.stringify(results));
             res(results);
         }
     })
@@ -184,6 +191,7 @@ module.exports.countUserDistribution = function(res){
             console.log("error when counting user users")
         }
         else{
+            console.log("result overall in model is " + JSON.stringify(results));
             res(results);
         }
     })
